@@ -1,0 +1,7 @@
+import requests
+
+url = ""
+response = requests.get(url)
+response.content
+with open("image.jpg, "wb"):
+    file.write(response.content)
